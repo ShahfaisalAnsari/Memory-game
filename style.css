@@ -1,0 +1,28 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 500px;
+}
+.center{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+.cong{
+    background: url("images/end.png")center center /cover no-repeat;
+    height: 300px;
+    width: 300px;
+}
+@media (max-width:575px) {
+    .grid{
+        height: 300px;
+        width: 300px;
+    }
+    .grid img{
+        height: 60px;
+        width: 60px;
+    }
+}
